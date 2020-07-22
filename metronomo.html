@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Metronomo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script src="metronome.js"></script>
+        <style>
+            img {
+                width: 10%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer>
+        </script>
+
+        <label id="count_label_ms"></label>
+        <br/>
+        <p>
+            <label for="tempo">Tempo</label>  
+            <input type="text" name="tempo" id="tempo">
+            <p>
+                <input type="button" name="stop" value="stop" />
+                <input type="button" name="reset" value="reset" />
+                <input type="button" name="start" value="start" />
+            </p>
+        </p>
+        <img id="metro" src="metronome.png" alt="">
+    </body>
+</html>
