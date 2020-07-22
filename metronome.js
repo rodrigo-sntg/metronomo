@@ -2,9 +2,7 @@ window.onload = function () {
     var counterms;
     var metronomo = {};
     var ativo = false;
-
-    var tempo = 120;
-    var time = 1000 / (tempo / 60);
+    
     var metro = -1;
 
 
