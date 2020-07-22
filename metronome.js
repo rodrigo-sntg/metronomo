@@ -1,7 +1,5 @@
 window.onload = function () {
-    var countms = 0;
     var counterms;
-    var id_label_ms = document.getElementById("count_label_ms");
     var metronomo = {};
     var ativo = false;
 
@@ -39,7 +37,6 @@ window.onload = function () {
     metronomo.reset = function () {
         metronomo.stop();
         ativo = false;
-        id_label_ms.innerHTML = countms = 0;
     };
 
     ['start', 'stop', 'reset'].forEach(function (tipo) {
